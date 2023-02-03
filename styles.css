@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font: 1em/1.618 Inter, sans-serif;
+  min-height: 100vh;
+  padding: 30px;
+  color: #224;
+  background: linear-gradient(109.6deg, rgb(156, 252, 248) 11.2%, rgb(110, 123, 251) 91.1%);
+}
+.wrapper{
+/* From https://css.glass */
+width:80%;
+margin:auto;
+margin-top: 1%;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+ul li{
+  list-style:none;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 2px;
+  margin-top: 2px;
+  align-items: center;
+  padding-top: 5px;
+}
+.taskline{
+  text-decoration: line-through;
+  color: red;
+  
+}
+.icon{
+  font-size:28px;
+  cursor: pointer;
+  color:black;
+}
